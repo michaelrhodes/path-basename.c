@@ -1,0 +1,18 @@
+{
+  "name": "path-basename.c",
+  "version": "0.0.1",
+  "repo": "michaelrhodes/path-basename.c",
+  "description": "Find the last portion of a path. Similar to Node’s path.basename method.",
+  "keywords": [
+    "path",
+    "basename"
+  ],
+  "license": "MIT",
+  "src": [
+    "src/path-basename.c",
+    "src/path-basename.h"
+  ],
+  "dependencies": {
+    "stephenmathieson/str-replace.c": "0.0.5"
+  }
+}
