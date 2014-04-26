@@ -1,8 +1,7 @@
-
-SRC		 = $(wildcard src/*.c)
-SRC		+= $(wildcard deps/*/*.c)
-OBJS		= $(SRC:.c=.o)
-CFLAGS	= -std=c99 -Ideps -Isrc
+SRC = $(wildcard src/*.c)
+SRC += $(wildcard deps/*/*.c)
+OBJS = $(SRC:.c=.o)
+CFLAGS = -std=c99 -Ideps -Isrc
 CFLAGS += -Wall -Wextra
 
 test: test.c $(OBJS)
